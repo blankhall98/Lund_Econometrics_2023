@@ -28,8 +28,10 @@ reg logwage college female nonwhite
 eststo m2
 
 /* bad variables model */
-reg logwage college female nonwhite industry occupation
+reg logwage college female nonwhite occupation
 eststo m3
 
+/* compare models */
+esttab m1 m2 m3
 
 
